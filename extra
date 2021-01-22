@@ -19,7 +19,7 @@ Depolyment
 Basic React Native=1
 React-Redux =1
 React-Redux =1
-Testing
+Testing Jest Enzime
 React-Saga -1
 Github
 React-with-typescript-1
@@ -64,3 +64,45 @@ package.json
 /////////////////////////
 how to install package
 generate react app 
+
+///////Step to install packages/////////
+**NodeJs must be installed
+> navigate to the folder
+> npm i packagename /npm install packagename
+
+///////dev Dependency//////////////
+npm i jest --save-dev
+
+
+//////////////////////
+Generate React App
+//////////////////////
+#window
+**One Time**
+> open cmd as admin
+> npm i -g create-react-app
+
+**Next All Time**
+> open cmd
+> go inside folder
+> create-react-app appname
+
+#Mac/Linux
+**One Time**
+> open terminal
+> sudo npm i -g create-react-app
+
+**Next All Time**
+> open cmd
+> go inside folder
+> create-react-app appname
+
+//////////////////////
+Run React App
+//////////////////////
+> go inside the folder 
+> npm start
+> http://localhost:3000
+
+
+component
