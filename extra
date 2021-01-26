@@ -106,3 +106,14 @@ Run React App
 
 
 component
+> functional component
+  # dumb component
+  # use for display purpose
+  # light in weight
+  # cannot maintain state
+
+> class component
+  # Logical component
+  # Heavy in weight
+  # use for display, api call and data interaction
+  # Can maintain state
