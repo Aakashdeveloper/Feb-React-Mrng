@@ -117,3 +117,20 @@ component
   # Heavy in weight
   # use for display, api call and data interaction
   # Can maintain state
+
+  >>>>>
+  state 
+    > Act like a local variable
+    > Scope of state is in one component
+    > any data interaction that going to happen will happen through state
+    > we can update the value of state
+
+  props
+    > Help to pass the data from one component to another component
+    > we cannot change tht value of props
+    > data can only transfer in between nested component
+
+///Javascript///
+map 
+filter
+indexof 
