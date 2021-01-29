@@ -131,6 +131,30 @@ component
     > data can only transfer in between nested component
 
 ///Javascript///
-map 
-filter
-indexof 
+map  > help to iterate over data(forloop)
+filter > filter help to filter out the value
+      > Return those value for which output is true
+indexof > check value is part of array or not
+          if not tha return -1
+
+
+var a = ["Delhi","Mumbai","London"]
+a.map((data) => {
+  return `<h1>${data}</h1>`
+})
+
+var a =[4,5,3,6,1,3,7,7]
+a.filter((data) => {
+  return data>5
+})
+
+ [6, 7, 7]
+
+a.indexOf("Delhi")
+0
+a.indexOf("London")
+2
+a.indexOf("Paris")
+-1
+a.indexOf("Amsterdam")
+-1

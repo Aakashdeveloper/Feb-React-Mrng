@@ -1,9 +1,18 @@
 import React from 'react';
 
-const NewsList =() => {
+const NewsList =(props) => {
+    console.log("in news list",props)
+    const renderList = props.newsdata.map((data) => {
+        return(
+            <div>
+                <h3>{data.title}</h3>
+                <p>{data.feed}</p>
+            </div>
+        )
+    })
     return(
         <div>
-            <h1>News List</h1>
+           {renderList}
         </div>
     )
 }
