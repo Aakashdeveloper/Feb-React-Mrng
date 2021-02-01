@@ -158,3 +158,10 @@ a.indexOf("Paris")
 -1
 a.indexOf("Amsterdam")
 -1
+
+//////////
+parent to child => props 
+child to parent => props with function 
+
+///Routing////
+npm i react-router-dom
