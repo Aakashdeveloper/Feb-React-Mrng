@@ -1,0 +1,26 @@
+{
+  "booking": [
+    {
+      "id": 9500,
+      "hotel_name": "DoubleTree by Hilton",
+      "name": "Amit",
+      "phone": "6767"
+    },
+    {
+      "id": 9790,
+      "hotel_name": "Rodas - An Ecotel Hotel",
+      "name": "Aakash",
+      "phone": "786788"
+    }
+  ],
+  "hotel": [
+    {
+      "id": 1,
+      "class": "hotel1"
+    },
+    {
+      "id": 2,
+      "class": "hotel2"
+    }
+  ]
+}

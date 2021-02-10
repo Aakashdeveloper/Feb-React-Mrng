@@ -4,7 +4,9 @@ import Home from './Home/Home';
 import Header from './Header';
 import Footer from './Footer';
 import ListingApi from './listing/listingApi';
-import Details from './detalis/hotelDetail'
+import Details from './detalis/hotelDetail';
+import PlaceBooking from './Bookings/placeBooking';
+import BookingApi from './Bookings/BookingApi'
 
 const Routing = ( ) => {
     return(
@@ -14,6 +16,8 @@ const Routing = ( ) => {
                     <Route exact path="/" component={Home}/>
                     <Route path="/list/:id" component={ListingApi}/>
                     <Route path="/details/:id" component={Details}/>
+                    <Route path="/booking/:hotelname" component={PlaceBooking}/>
+                    <Route path="/viewBooking" component={BookingApi}/>
                 <Footer/>
             </div>
         </BrowserRouter>
