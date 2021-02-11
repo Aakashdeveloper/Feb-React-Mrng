@@ -9,7 +9,6 @@ React = 3
 Mock API
 json-server
 ////////////////////
-
 React-JWT(Login Logout)-2
 React-GarphQL-1
 React_hooks -1
@@ -18,11 +17,13 @@ Depolyment
 -> Docker
 -> heroku
 -> Nginx
+------------
 Basic React Native=1
 React-Redux =1
 React-Redux =1
 Testing Jest Enzime
 React-Saga -1
+-------------
 Github
 React-with-typescript-1
 --------NOT--------------
