@@ -9,13 +9,13 @@ React = 3
 Mock API
 json-server
 React-JWT(Login Logout)-2
-////////////////////
 React-GarphQL-1
-React_hooks -1
 Depolyment
 -> MERN
--> Docker
 -> heroku
+////////////////////
+React_hooks -1
+-> Docker
 -> Nginx
 ------------
 Basic React Native=1
@@ -211,3 +211,6 @@ json-server --watch db.json --port 9800
 (response) => {userinfo}
 
 https://www.youtube.com/c/DeveloperFunnel/videos
+
+
+npm i apollo-boost apollo-graphql graphql react-apollo graphql-tag
