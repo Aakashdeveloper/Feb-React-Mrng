@@ -13,7 +13,6 @@ React-GarphQL-1
 Depolyment
 -> MERN
 -> heroku
-////////////////////
 React_hooks -1
 -> Docker
 -> Nginx
@@ -214,3 +213,8 @@ https://www.youtube.com/c/DeveloperFunnel/videos
 
 
 npm i apollo-boost apollo-graphql graphql react-apollo graphql-tag
+
+////////
+npm i -g create-react-native-app
+create-react-native-app mymobi
+npm run web
