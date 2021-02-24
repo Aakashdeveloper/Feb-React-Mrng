@@ -17,10 +17,10 @@ React_hooks -1
 -> Docker
 -> Nginx
 React-Redux =1
-------------
-Basic React Native=1
 React-Redux =1
 Testing Jest Enzime
+------------
+Basic React Native=1
 React-Saga -1
 Github
 React-with-typescript-1
@@ -217,3 +217,5 @@ npm i apollo-boost apollo-graphql graphql react-apollo graphql-tag
 npm i -g create-react-native-app
 create-react-native-app mymobi
 npm run web
+
+npm i redux react-redux redux-logger redux-promise react-slick
