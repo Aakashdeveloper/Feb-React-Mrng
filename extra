@@ -217,5 +217,56 @@ npm i apollo-boost apollo-graphql graphql react-apollo graphql-tag
 npm i -g create-react-native-app
 create-react-native-app mymobi
 npm run web
+expo app(install in mobile and scan QR code)
 
 npm i redux react-redux redux-logger redux-promise react-slick
+
+
+function loopme(userinput){
+  for(i=0;i<userinput;i++){
+    console.log(i)
+  }
+}
+
+
+function * loopme(userinput){
+  for(i=0;i<userinput;i++){
+    yield i
+  }
+}
+
+loopme(5)
+loopme {<suspended>}
+var data = loopme(5)
+undefined
+data.next()
+{value: 0, done: false}
+data.next()
+{value: 1, done: false}
+data.next()
+{value: 2, done: false}
+data.next()
+{value: 3, done: false}
+data.next()
+{value: 4, done: false}
+data.next()
+{value: undefined, done: true}
+
+
+/////////
+from new folder  first Time
+///////
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/testnaresh.git
+git push -u origin master
+
+/////next time////
+git add .
+git commit -m "first commit"
+git push
+
+
+git clone https://github.com/Aakashdeveloper/testnaresh.git
